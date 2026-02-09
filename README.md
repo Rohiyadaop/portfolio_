@@ -2,7 +2,7 @@
 
 A sleek and modern **minimal portfolio website** built with **Next.js**, designed to showcase my projects, skills, and experience in a clean, fast, and user-friendly way. 🚀 Focused on performance, simplicity, and elegant UI.
 
-![Portfolio Preview](./public/og_bannerr.jpeg)
+![Portfolio Preview]()
 
 <div align="center">
   <a href="https://portfolio-indol-three-aipkyyi2pg.vercel.app/" target="_blank">
@@ -25,3 +25,4 @@ cd portfolio_
 pnpm install
 # or
 npm install
+
