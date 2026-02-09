@@ -18,51 +18,72 @@ export const skills = [
   { name: "MongoDB", icon: Database, level: 80 },
   { name: "AWS", icon: Server, level: 75 },
   { name: "Docker", icon: Server, level: 70 },
-  { name: "UI/UX Design", icon: Palette, level: 85 },
-  { name: "Mobile Dev", icon: Smartphone, level: 75 },
 ];
 
 export const projects = [
   {
-    title: "E-Commerce Platform",
-    description:
-      "A full-stack e-commerce solution built with Next.js, TypeScript, and Stripe integration. Features include user authentication, product management, and real-time inventory tracking.",
-    tech: ["Next.js", "TypeScript", "PostgreSQL", "Stripe", "Tailwind CSS"],
-    github: "https://github.com",
-    live: "https://example.com",
-    image: "/placeholder.svg?height=200&width=400",
-    image_dark: "/placeholder.dark.svg?height=200&width=400",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-    tech: ["React", "Node.js", "Socket.io", "MongoDB", "Express"],
-    github: "https://github.com",
-    live: "https://example.com",
-    image: "/placeholder.svg?height=200&width=400",
-    image_dark: "/placeholder.dark.svg?height=200&width=400",
-  },
-  {
-    title: "AI Chat Assistant",
+    title: "AI Chat Assistant for your health",
     description:
       "An intelligent chat assistant powered by OpenAI's GPT API with custom training data and context-aware responses.",
     tech: ["Python", "FastAPI", "OpenAI API", "React", "WebSocket"],
-    github: "https://github.com",
-    live: "https://example.com",
+    github: "https://github.com/Rohiyadaop/Medical_ai_agent",
+    live: "https://medical-ai-agent-ruddy.vercel.app/",
     image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
   {
-    title: "Data Visualization Dashboard",
+    title: "Dinner Talk",
     description:
-      "Interactive dashboard for data visualization with real-time charts, filtering capabilities, and export functionality.",
-    tech: ["D3.js", "React", "Node.js", "PostgreSQL", "Chart.js"],
-    github: "https://github.com",
-    live: "https://example.com",
+      "A conversational web application designed for casual discussions and real-time interaction. Focuses on smooth UI, responsive design, and user-friendly chat experience.",
+    tech: ["React", "JavaScript", "HTML", "CSS"],
+    github: "",
+    live: "https://dinnertalkplatform-rohit.vercel.app/dashboard",
     image: "/placeholder.svg?height=200&width=400",
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
+  {
+    title: "E-Commerce Website",
+    description:
+      "A full-stack e-commerce web application featuring product listings, user authentication, cart functionality, and secure checkout. Designed with a responsive UI and scalable backend architecture.",
+    tech: ["React", "Node.js", "Express", "MongoDB", "Stripe", "Tailwind CSS"],
+    github: "https://github.com/Rohiyadaop/ecommerce_website", // update if needed
+    live: "https://ecommercewebsitedevelopment-alpha.vercel.app/",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  
+  {
+    title: "Real-Time Chat Application",
+    description:
+      "A real-time messaging web app with user authentication and instant message delivery. Built to explore modern frontend frameworks and real-time communication concepts.",
+    tech: ["React", "JavaScript", "Firebase", "CSS"],
+    github: "https://github.com/Rohiyadaop/quick_chat_app",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },    
+  {
+    title: "Titan – AI Voice Assistant",
+    description:
+      "A desktop-based AI voice assistant capable of executing system commands, opening applications and websites, and having natural conversations using Generative AI.",
+    tech: ["Python", "Speech Recognition", "Google Gemini API", "Automation"],
+    github: "",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  
+  {
+    title: "AI Chatbot Interview Application",
+    description:
+      "An AI-powered interview preparation app built using Streamlit. Supports interactive question-answer sessions and was later migrated from OpenAI API to Google Gemini.",
+    tech: ["Python", "Streamlit", "Google Gemini", "NLP"],
+    github: "",
+    live: "",
+    image: "/placeholder.svg?height=200&width=400",
+    image_dark: "/placeholder.dark.svg?height=200&width=400",
+  },
+  
   {
     title: "Portfolio Website",
     description:

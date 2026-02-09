@@ -10,44 +10,43 @@ const inter = Montserrat({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: {
-    default: "Alex Developer - Portfolio",
-    template: "%s | Alex Developer",
+    default: "Rohit Yadav Developer - Portfolio",
+    template: "%s | Rohit  Developer",
   },
-  description: "Full Stack Developer & UI/UX Designer Portfolio of Alex — building scalable, elegant web apps with React, Node.js, and design precision.",
+  description: " AI based Full Stack  Developer & UI/UX Designer Portfolio of Rohit Yadav — building scalable, elegant web apps with React, Node.js, and design precision.",
   keywords: [
     "Full Stack Developer",
     "React Developer",
     "Node.js",
     "Portfolio",
-    "Alex Developer",
     "Web Developer",
     "UI/UX Designer",
   ],
-  authors: [{ name: "Ps Parwez", url: "https://github.com/psparwez" }],
-  creator: "Ps Parwez",
-  metadataBase: new URL("https://minimal-portfolio-ps.vercel.app"),
+  authors: [{ name: "Ps Parwez", url: "https://github.com/Rohiyadaop" }],
+  creator: "Rohit Yadav",
+  metadataBase: new URL("https://github.com/Rohiyadaop"),
   openGraph: {
     type: "website",
-    url: "https://minimal-portfolio-ps.vercel.app",
-    title: "Alex Developer - Portfolio",
+    url: "https://github.com/Rohiyadaop",
+    title: "Rohit Yadav Developer - Portfolio",
     description:
-      "Explore the portfolio of Alex, a full stack developer focused on performance, scalability, and clean UI/UX.",
-    siteName: "Alex Developer Portfolio",
+      "Explore the portfolio of Rohit Yadav, a full stack developer focused on performance, scalability, and clean UI/UX.",
+    siteName: "Rohit Yadav Developer Portfolio",
     images: [
       {
         url: "/og_bannerr.jpeg",
         width: 1200,
         height: 630,
-        alt: "Alex Developer Portfolio",
+        alt: "Rohit Developer Portfolio",
       },
     ],
     locale: "en_US",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alex Developer - Portfolio",
+    title: "Rohit Yadav Developer - Portfolio",
     description:
-      "Full Stack Developer & UI/UX Designer Portfolio of Alex.",
+      "Full Stack Developer & UI/UX Designer Portfolio of Rohit Yadav.",
     creator: "@psparwez",
     images: ["/og_bannerr.jpeg"],
   },

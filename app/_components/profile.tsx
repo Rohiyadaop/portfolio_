@@ -23,9 +23,7 @@ export default function Profile({ setActiveTab }: ProfileProps) {
                     </CardHeader>
                     <CardContent className="space-y-4">
                         <p className="text-muted-foreground leading-relaxed">
-                            Passionate full-stack developer with 6+ years of experience building scalable web applications. I
-                            specialize in React, Node.js, and cloud technologies, with a strong focus on user experience and
-                            performance optimization. I love turning complex problems into simple, beautiful solutions.
+                        I’m an AI-based Full Stack Developer with a strong foundation in computer science and a passion for building intelligent, scalable web applications. I work across the full stack—designing responsive frontends, developing robust backends, and integrating AI to create smarter user experiences. I enjoy solving real-world problems with clean code, modern frameworks, and data-driven thinking, while continuously learning and experimenting with emerging technologies.
                         </p>
                         <p className="text-muted-foreground leading-relaxed">
                             When I'm not coding, you can find me contributing to open-source projects, writing technical articles,

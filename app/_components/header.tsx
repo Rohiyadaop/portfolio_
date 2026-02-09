@@ -54,7 +54,7 @@ export default function Header() {
                                     )}
                                 >
                                     <Image
-                                        src="/avatar-p.png"
+                                        src="/avatar.jpeg"
                                         alt="Profile photo"
                                         height={40}
                                         width={40}
@@ -67,17 +67,17 @@ export default function Header() {
                         </div>
                         <div className='hidden sm:block'>
                             <h1 className="text-base sm:text-xl font-medium flex items-center gap-2">
-                                Alex Developer
+                                 Rohit Yadav
                                 <div className="size-1.5 sm:size-2.5 animate-pulse relative after:content-[''] after:absolute flex items-center justify-center after:h-full after:w-full after:bg-green-400 after:rounded-full after:animate-ping rounded-full bg-primary"></div>
                             </h1>
                             <p className="text-muted-foreground text-[11px] sm:text-sm">
-                                Full Stack Developer & UI/UX Designer
+                               AI based  Full Stack Developer 
                             </p>
                         </div>
                     </div>
                     <div className="flex items-center space-x-2">
                         <ThemeToggle />
-                        <Link href="https://github.com/psparwez" aria-label="View GitHub Profile" target="_blank" rel="noopener noreferrer">
+                        <Link href="https://github.com/Rohiyadaop" aria-label="View GitHub Profile" target="_blank" rel="noopener noreferrer">
                             <Button variant="outline" size="sm">
                                 <Github className="w-4 h-4 sm:mr-1" />
                                 <span className="hidden sm:inline">View GitHub</span>

@@ -8,20 +8,20 @@ const contactItems = [
     {
         icon: <Mail className="size-7 text-muted-foreground" />,
         title: "Email",
-        value: "alex@example.com",
-        link: "mailto:alex@example.com",
+        value: "ry95325932@gmail.com",
+        link: "mailto:ry95325932@gmail.com",
     },
     {
         icon: <Linkedin className="size-7 text-muted-foreground" />,
         title: "LinkedIn",
-        value: "@alexdeveloper",
-        link: "https://linkedin.com/in/alexdeveloper",
+        value: "@rohitdeveloper",
+        link: "https://www.linkedin.com/in/rohit-yadav-11778028a/",
     },
     {
         icon: <Github className="size-7 text-muted-foreground" />,
         title: "GitHub",
-        value: "@alexdev",
-        link: "https://github.com/alexdev",
+        value: "@rohitdev",
+        link: "https://github.com/Rohiyadaop",
     },
 ];
 
