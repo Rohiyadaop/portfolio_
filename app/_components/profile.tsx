@@ -33,7 +33,7 @@ export default function Profile({ setActiveTab }: ProfileProps) {
                         <div className="flex gap-3 sm:gap-0 sm:items-center flex-col sm:flex-row  sm:space-x-4 text-sm text-muted-foreground">
                             <div className="flex items-center">
                                 <MapPin className="w-4 h-4 mr-1" />
-                                San Francisco, CA
+                                chamoli uttarakhand India
                             </div>
                             <div className="flex items-center">
                                 <Calendar className="w-4 h-4 mr-1" />

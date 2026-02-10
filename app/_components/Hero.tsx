@@ -66,7 +66,7 @@ export default function Hero({ setActiveTab }: HeroProps) {
                     </div>
                     <div>
                         <h1 className="text-xl font-medium flex items-center gap-2">
-                            Alex Developer
+                            Rohit Developer
                             <div className="size-1.5 animate-pulse relative after:content-[''] after:absolute flex items-center justify-center after:h-full after:w-full after:bg-green-400 after:rounded-full after:animate-ping rounded-full bg-primary"></div>
                         </h1>
                         <p className="text-muted-foreground text-sm">
