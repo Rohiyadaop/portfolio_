@@ -105,59 +105,81 @@ export const projects = [
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
 ];
-
 export const experience = [
   {
-    title: "Senior Full Stack Developer",
-    company: "TechCorp Inc.",
-    period: "2022 - Present",
-    location: "San Francisco, CA",
-    description:
-      "Led development of scalable web applications serving 100k+ users. Architected microservices infrastructure and mentored junior developers.",
-    achievements: [
-      "Improved application performance by 40%",
-      "Led team of 5 developers",
-      "Implemented CI/CD pipeline reducing deployment time by 60%",
-    ],
-  },
-  {
-    title: "Full Stack Developer",
-    company: "StartupXYZ",
-    period: "2020 - 2022",
-    location: "New York, NY",
-    description:
-      "Developed and maintained multiple client projects using modern web technologies. Collaborated with design team to implement pixel-perfect UIs.",
-    achievements: [
-      "Built 15+ production applications",
-      "Reduced bug reports by 50%",
-      "Implemented automated testing suite",
-    ],
-  },
-  {
-    title: "Frontend Developer",
-    company: "WebSolutions",
-    period: "2018 - 2020",
-    location: "Austin, TX",
-    description:
-      "Specialized in React development and responsive web design. Created reusable component libraries and optimized web performance.",
-    achievements: [
-      "Created component library used across 10+ projects",
-      "Improved page load times by 35%",
-      "Mentored 3 junior developers",
-    ],
-  },
-
-  {
-    title: "Intern - Web Development",
-    company: "TechInterns Co.",
-    period: "2017 - 2018",
+    title: "AI Health Chat Assistant (Full Stack AI Project)",
+    company: "Personal Project",
+    period: "Jan 2026 – Present",
     location: "Remote",
     description:
-      "Assisted in development of client websites and internal tools. Gained experience in HTML, CSS, and JavaScript.",
+      "Developed an AI-powered healthcare chatbot using FastAPI and React with real-time communication via WebSockets. Integrated OpenAI GPT API to provide context-aware medical responses.",
     achievements: [
-      "Contributed to 5+ client projects",
-      "Learned modern web development practices",
-      "Participated in code reviews and team meetings",
-    ],
+      "Integrated OpenAI GPT API with custom medical prompt engineering",
+      "Implemented real-time chat using WebSockets",
+      "Built scalable backend using FastAPI (async)",
+      "Designed responsive UI in React and deployed on Vercel",
+      "Handled secure API key management and environment configuration"
+    ]
   },
+  {
+    title: "Titan – Desktop Voice Assistant",
+    company: "AI Automation Project",
+    period: "Dec 2025 – Jan 2026",
+    location: "Personal Development",
+    description:
+      "Built an intelligent desktop voice assistant in Python capable of executing system commands and generating AI-based responses using Google Generative AI (Gemini).",
+    achievements: [
+      "Implemented speech recognition and text-to-speech system",
+      "Automated system commands (open apps, websites, diagnostics)",
+      "Integrated Gemini AI for conversational capabilities",
+      "Built modular command processing architecture",
+      "Improved natural language handling using prompt engineering"
+    ]
+  },
+  {
+    title: "Smart Indoor Farm Control System",
+    company: "Academic Project",
+    period: "Nov 2025",
+    location: "University Project",
+    description:
+      "Designed an intelligent environmental monitoring system for indoor farming to control temperature and humidity using sensor data processing and automation logic.",
+    achievements: [
+      "Implemented sensor data cleaning and validation",
+      "Designed threshold-based automation logic",
+      "Simulated IoT-based smart greenhouse model",
+      "Optimized environmental decision algorithms",
+      "Documented full system architecture and workflow"
+    ]
+  },
+  {
+    title: "Minimal Developer Portfolio (Next.js)",
+    company: "Frontend Project",
+    period: "Oct 2025",
+    location: "Personal Project",
+    description:
+      "Created a sleek, high-performance portfolio website using Next.js to showcase projects, skills, and achievements with modern UI and optimized SEO.",
+    achievements: [
+      "Built fully responsive design using Tailwind CSS",
+      "Optimized performance and SEO configuration",
+      "Integrated project showcase sections dynamically",
+      "Deployed production-ready app on Vercel",
+      "Implemented modern UI with clean minimal aesthetics"
+    ]
+  },
+  {
+    title: "Competitive Programming & Problem Solving",
+    company: "Self-Driven Learning",
+    period: "2024 – Present",
+    location: "Online",
+    description:
+      "Actively solving advanced algorithmic problems focusing on data structures, graph algorithms, dynamic programming, and optimization techniques.",
+    achievements: [
+      "Solved 300+ problems on LeetCode",
+      "Strong understanding of Dijkstra, DP, Greedy & Graph theory",
+      "Practicing GATE-level CS fundamentals",
+      "Improved time & space complexity optimization skills",
+      "Participated in competitive programming contests"
+    ]
+  }
+  
 ];
