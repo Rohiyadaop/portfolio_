@@ -32,6 +32,26 @@ export const projects = [
     image_dark: "/placeholder.dark.svg?height=200&width=400",
   },
   {
+  title: "Deep Packet Inspection (DPI) Engine in C++",
+  description:
+    "A high-performance Deep Packet Inspection engine built in C++ that captures live network traffic, parses packet headers, and inspects payload data at the application layer. Implements protocol identification, signature-based threat detection, and real-time traffic filtering using optimized memory and multithreading techniques.",
+  tech: ["C++", "libpcap", "Socket Programming", "STL", "Multithreading", "Linux Networking"],
+  github: "https://github.com/Rohiyadaop/cpp-dpi-engine",
+  live: "https://cpp-dpi-documentation.vercel.app/",
+  image: "/placeholder.svg?height=200&width=400",
+  image_dark: "/placeholder.dark.svg?height=200&width=400",
+},
+{
+  title: "Stock Price Prediction System",
+  description:
+    "A machine learning-based stock price prediction system that analyzes historical market data to forecast future trends. Implements LSTM neural networks, technical indicators, and data visualization dashboards for accurate and interpretable predictions.",
+  tech: ["Python", "TensorFlow", "Keras", "Pandas", "NumPy", "Streamlit", "Yahoo Finance API"],
+  github: "https://github.com/Rohiyadaop/stock-price-predictor",
+  live: "https://stock-price-predictor-ai.vercel.app/",
+  image: "/placeholder.svg?height=200&width=400",
+  image_dark: "/placeholder.dark.svg?height=200&width=400",
+},
+  {
     title: "Dinner Talk",
     description:
       "A conversational web application designed for casual discussions and real-time interaction. Focuses on smooth UI, responsive design, and user-friendly chat experience.",
